@@ -152,24 +152,17 @@ $("path").mouseenter(function(e){
 
 
 let chiayi_city_1 = document.getElementById("chiayi_city_1");
-
-
 chiayi_city_1.addEventListener("mouseover", function(){
     chiayi_city_1.style.fill = "#FFF2D8";
     chiayi_city_1.style.transform = "translateX(0px)";
     chiayi_city_1.style.transform = "translateY(0px)";
 });
 
+
 let keelung = document.getElementById("keelung");
 let keelung_URL = "https://www.klcg.gov.tw/";
 keelung.addEventListener("click", function(){
 	window.open(keelung_URL, "_blank");
-});
-keelung.addEventListener("mousedown", function(){
-	keelung.style.fill = "red";
-});
-keelung.addEventListener("mouseup", function(){
-	keelung.style.fill = "";
 });
 let taipei = document.getElementById("taipei");
 let taipei_URL = "https://www.gov.taipei/";
