@@ -1,0 +1,174 @@
+keelung
+let keelung = document.getElementById("keelung");
+let keelung_URL = "https://www.klcg.gov.tw/";
+keelung.addEventListener("click", function(){
+	window.open("keelung_URL", "_blank");
+})
+
+taipei
+let taipei = document.getElementById("taipei");
+let taipei_URL = "https://www.gov.taipei/";
+taipei.addEventListener("click", function(){
+	window.open("taipei_URL", "_blank");
+})
+
+new_taipei
+let new_taipei = document.getElementById("new_taipei");
+let new_taipei_URL = "https://www.ntpc.gov.tw/";
+new_taipei.addEventListener("click", function(){
+	window.open("new_taipei_URL", "_blank");
+})
+
+yilan
+let yilan = document.getElementById("yilan");
+let yilan_URL = "https://www.e-land.gov.tw/";
+yilan.addEventListener("click", function(){
+	window.open("yilan_URL", "_blank");
+})
+
+taoyuan
+let taoyuan = document.getElementById("taoyuan");
+let taoyuan_URL = "https://www.tycg.gov.tw/ch/";
+taoyuan.addEventListener("click", function(){
+	window.open("taoyuan_URL", "_blank");
+})
+
+hsinchu_city
+let hsinchu_city = document.getElementById("hsinchu_city");
+let hsinchu_city_URL = "https://www.hccg.gov.tw/ch/index.jsp";
+hsinchu_city.addEventListener("click", function(){
+	window.open("hsinchu_city_URL", "_blank");
+})
+
+hsinchu_county
+let hsinchu_county = document.getElementById("hsinchu_county");
+let hsinchu_county_URL = "https://www.hsinchu.gov.tw/";
+hsinchu_county.addEventListener("click", function(){
+	window.open("hsinchu_county_URL", "_blank");
+})
+
+miaoli
+let miaoli = document.getElementById("miaoli");
+let miaoli_URL = "https://www.miaoli.gov.tw/";
+miaoli.addEventListener("click", function(){
+	window.open("miaoli_URL", "_blank");
+})
+
+taichung
+let taichung = document.getElementById("taichung");
+let taichung_URL = "https://www.taichung.gov.tw/";
+taichung.addEventListener("click", function(){
+	window.open("taichung_URL", "_blank");
+})
+
+changhua
+let changhua = document.getElementById("changhua");
+let changhua_URL = "https://www.chcg.gov.tw/";
+changhua.addEventListener("click", function(){
+	window.open("changhua_URL", "_blank");
+})
+
+yunlin
+let yunlin = document.getElementById("yunlin");
+let yunlin_URL = "https://www.yunlin.gov.tw/";
+yunlin.addEventListener("click", function(){
+	window.open("yunlin_URL", "_blank");
+})
+
+chiayi_county
+let chiayi_county = document.getElementById("chiayi_county");
+let chiayi_county_URL = "https://www.cyhg.gov.tw/";
+chiayi_county.addEventListener("click", function(){
+	window.open("chiayi_county_URL", "_blank");
+})
+
+chiayi_city
+let chiayi_city = document.getElementById("chiayi_city");
+let chiayi_city_URL = "https://www.chiayi.gov.tw/";
+chiayi_city.addEventListener("click", function(){
+	window.open("chiayi_city_URL", "_blank");
+})
+
+tainan
+let tainan = document.getElementById("tainan");
+let tainan_URL = "https://www.tainan.gov.tw/";
+tainan.addEventListener("click", function(){
+	window.open("tainan_URL", "_blank");
+})
+
+kaohsiung
+let kaohsiung = document.getElementById("kaohsiung");
+let kaohsiung_URL = "https://www.kcg.gov.tw/";
+kaohsiung.addEventListener("click", function(){
+	window.open("kaohsiung_URL", "_blank");
+})
+
+pingtung
+let pingtung = document.getElementById("pingtung");
+let pingtung_URL = "https://www.pthg.gov.tw/";
+pingtung.addEventListener("click", function(){
+	window.open("pingtung_URL", "_blank");
+})
+
+nantou
+let nantou = document.getElementById("nantou");
+let nantou_URL = "https://www.nantou.gov.tw/";
+nantou.addEventListener("click", function(){
+	window.open("nantou_URL", "_blank");
+})
+
+hualien
+let hualien = document.getElementById("hualien");
+let hualien_URL = "https://www.hl.gov.tw/";
+hualien.addEventListener("click", function(){
+	window.open("hualien_URL", "_blank");
+})
+
+taitung
+let taitung = document.getElementById("taitung");
+let taitung_URL = "https://www.taitung.gov.tw/";
+taitung.addEventListener("click", function(){
+	window.open("taitung_URL", "_blank");
+})
+
+liuqiu
+let liuqiu = document.getElementById("liuqiu");
+let liuqiu_URL = "https://www.pthg.gov.tw/liuchiu/Default.aspx";
+liuqiu.addEventListener("click", function(){
+	window.open("liuqiu_URL", "_blank");
+})
+
+green_island
+let green_island = document.getElementById("green_island");
+let green_island_URL = "https://www.lyudao.gov.tw/";
+green_island.addEventListener("click", function(){
+	window.open("green_island_URL", "_blank");
+})
+
+lanyu
+let lanyu = document.getElementById("lanyu");
+let lanyu_URL = "https://www.lanyu.gov.tw/";
+lanyu.addEventListener("click", function(){
+	window.open("lanyu_URL", "_blank");
+})
+
+penghu
+let penghu = document.getElementById("penghu");
+let penghu_URL = "https://www.penghu.gov.tw/";
+penghu.addEventListener("click", function(){
+	window.open("penghu_URL", "_blank");
+})
+
+kinmen
+let kinmen = document.getElementById("kinmen");
+let kinmen_URL = "https://www.kinmen.gov.tw/";
+kinmen.addEventListener("click", function(){
+	window.open("kinmen_URL", "_blank");
+})
+
+lianjiang
+let lianjiang = document.getElementById("lianjiang");
+let lianjiang_URL = "https://www.matsu.gov.tw/";
+lianjiang.addEventListener("click", function(){
+	window.open("lianjiang_URL", "_blank");
+})

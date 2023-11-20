@@ -1,0 +1,102 @@
+[
+{
+    tag: "keelung_city",
+    place: "基隆市"
+},
+{
+    tag: "taipei_city",
+    place: "臺北市"
+},
+{
+    tag: "new_taipei_city",
+    place: "新北市"
+},
+{
+    tag: "taoyuan_city",
+    place: "桃園市"
+},
+{
+    tag: "hsinchu_city",
+    place: "新竹市"
+},
+{
+    tag: "hsinchu_county",
+    place: "新竹縣"
+},
+{
+    tag: "miaoli_county",
+    place: "苗栗縣"
+},
+{
+    tag: "taichung_city",
+    place: "臺中市"
+},
+{
+    tag: "changhua_county",
+    place: "彰化縣"
+},
+{
+    tag: "nantou_county",
+    place: "南投縣"
+},
+{
+    tag: "yunlin_county",
+    place: "雲林縣"
+},
+{
+    tag: "chiayi_city",
+    place: "嘉義市"
+},
+{
+    tag: "chiayi_county",
+    place: "嘉義縣"
+},
+{
+    tag: "tainan_city",
+    place: "臺南市"
+},
+{
+    tag: "kaohsiung_city",
+    place: "高雄市"
+},
+{
+    tag: "pingtung_county",
+    place: "屏東縣"
+},
+{
+    tag: "taitung_county",
+    place: "臺東縣"
+},
+{
+    tag: "hualien_county",
+    place: "花蓮縣"
+},
+{
+    tag: "yilan_county",
+    place: "宜蘭縣"
+},
+{
+    tag: "penghu_county",
+    place: "澎湖縣"
+},
+{
+    tag: "kinmen_county",
+    place: "金門縣"
+},
+{
+    tag: "lianjiang_ county",
+    place: "連江縣"
+},
+{
+  tag: "green_island_township",
+  place: "綠島"
+},
+{
+  tag: "lanyu_township",
+  place: "蘭嶼"
+},
+{
+    tag: "liuqiu_island",
+    place: "琉球嶼"
+  }
+]

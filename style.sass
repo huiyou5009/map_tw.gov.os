@@ -1,0 +1,70 @@
+*
+  font-family: 'Heebo'
+
+.title_area
+  grid-area: place
+  color: #113946
+  text-align: center
+
+
+  h1
+    font-size: 60px
+    letter-spacing: 3px
+    border: 1px solid none
+    border-radius:15px
+    background-color: #65647C
+    //color: #EAD7BB
+    color: #F1D3B3
+    margin: 10px
+    padding-top: 5px
+    
+
+   
+
+
+svg
+  height: 80vh
+  grid-area: map
+  //border: 1px solid
+  display: flex
+  position: absoluate
+  left: 50%
+  transform: translateX(48%)
+
+  
+#app
+  display: grid
+  grid-template-columns: 1fr 5fr 1fr
+  grid-template-rows: 0.5fr 5fr
+  grid-template-areas:". place ." ". map ."
+  position: relative
+  
+body
+  //background-color: #FFF0AC //背景color
+  background-color: #FFF2D8
+  
+  
+path
+  // 縣市的外框  
+  stroke: white
+  //fill: 	#8B43F5   //臺灣color
+  fill: #BCA37F
+  transition: 0.5s //速度降低
+  cursor: pointer   //鼠標轉換成可點擊的
+  
+  &:hover
+    //fill: #F5933D   //滑鼠移到臺灣時color
+    fill: #113946
+    transform: translate(-5px,-5px) //往上&往左浮動
+  
+  &:active
+    fill: #A75D5D
+
+  
+    
+   
+    
+  
+  
+
+  

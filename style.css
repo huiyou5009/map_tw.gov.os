@@ -1,0 +1,56 @@
+* {
+  font-family: "Heebo";
+}
+
+.title_area {
+  grid-area: place;
+  color: #113946;
+  text-align: center;
+}
+.title_area h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  border: 1px solid none;
+  border-radius: 15px;
+  background-color: #65647C;
+  color: #F1D3B3;
+  margin: 10px;
+  padding-top: 5px;
+}
+
+svg {
+  height: 80vh;
+  grid-area: map;
+  display: flex;
+  position: absoluate;
+  left: 50%;
+  transform: translateX(48%);
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 0.5fr 5fr;
+  grid-template-areas: ". place ." ". map .";
+  position: relative;
+}
+
+body {
+  background-color: #FFF2D8;
+}
+
+path {
+  stroke: white;
+  fill: #BCA37F;
+  transition: 0.5s;
+  cursor: pointer;
+}
+path:hover {
+  fill: #113946;
+  transform: translate(-5px, -5px);
+}
+path:active {
+  fill: #A75D5D;
+}
+
+/*# sourceMappingURL=style.css.map */
