@@ -98,5 +98,9 @@
 {
     tag: "liuqiu_island",
     place: "琉球嶼"
-  }
+  },
+  {
+    tag: "guishan_island",
+    place: "龜山島"
+}
 ]

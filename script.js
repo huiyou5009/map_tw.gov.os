@@ -98,7 +98,11 @@ let place_data=[
     {
         tag: "liuqiu_island",
         place: "琉球嶼"
-      }
+      },
+    {
+        tag: "guishan_island",
+        place: "龜山島"
+    }
     ];
     
     // Vue 要告訴它 執行的作用範圍
@@ -156,20 +160,16 @@ let chiayi_city_1 = document.getElementById("chiayi_city_1");
 
 chiayi_city_1.addEventListener("mouseover", function(){
     chiayi_city_1.style.fill = "#FFF2D8";
-    chiayi_city_1.style.transform = "translateX(0px)";
-    chiayi_city_1.style.transform = "translateY(0px)";
+    chiayi_city_1.style.transform = "translateX(0px) translateY(0px)";
+});
+chiayi_city_1.addEventListener("mouseout", function(){
+    chiayi_city_1.style.fill = "#FFF2D8";
 });
 
 let keelung = document.getElementById("keelung");
 let keelung_URL = "https://www.klcg.gov.tw/";
 keelung.addEventListener("click", function(){
 	window.open(keelung_URL, "_blank");
-});
-keelung.addEventListener("mousedown", function(){
-	keelung.style.fill = "red";
-});
-keelung.addEventListener("mouseup", function(){
-	keelung.style.fill = "";
 });
 let taipei = document.getElementById("taipei");
 let taipei_URL = "https://www.gov.taipei/";
@@ -290,4 +290,9 @@ let lianjiang = document.getElementById("lianjiang");
 let lianjiang_URL = "https://www.matsu.gov.tw/";
 lianjiang.addEventListener("click", function(){
 	window.open(lianjiang_URL, "_blank");
+});
+let guishan = document.getElementById("guishan_island");
+let guishan_URL = "https://events.necoast-nsa.gov.tw/coast/index.aspx";
+guishan.addEventListener("click", function(){
+	window.open(guishan_URL, "_blank");
 });

@@ -8,20 +8,25 @@ body {
 
 #vs {
   display: grid;
-  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: ". ver20 ver23 .";
-  column-gap: 20px;
+  grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
+  grid-template-rows: 95% 5%;
+  grid-template-areas: ". ver20 line ver23 ." ". w20 line w23 .";
+  column-gap: 40px;
+  row-gap: 15px;
 }
 
 #ver23 {
+  grid-area: ver23;
   display: grid;
   grid-template-columns: 0.5fr 5fr 0.5fr;
   grid-template-rows: 0.5fr 5fr;
   grid-template-areas: ". place ." ". d3map .";
-  grid-area: ver23;
-  border: 1px solid;
   height: 78vh;
+  margin-left: -40px;
+}
+
+#w23 {
+  grid-area: w23;
 }
 
 .title_area {
@@ -32,19 +37,19 @@ body {
 .title_area h1 {
   font-size: 55px;
   letter-spacing: 3px;
-  border: 1px solid none;
   border-radius: 15px;
   background-color: #65647C;
   color: #F1D3B3;
   margin: 10px;
   padding-top: 5px;
-  min-width: 41vw;
+  max-width: 45vw;
 }
+
 svg {
   grid-area: d3map;
-  height: 80vh;
+  height: 75vh;
   margin-top: -10px;
-  border: 1px solid;
+  margin-left: -20px;
 }
 
 #ver20 {
@@ -52,10 +57,15 @@ svg {
   position: relative;
 }
 #ver20 img {
-  height: 80vh;
+  height: 75vh;
   position: absoluate;
   top: 50%;
   transform: translateY(10%);
+}
+
+#w20 {
+  grid-area: w20;
+  display: relative;
 }
 
 path {
@@ -70,6 +80,24 @@ path:hover {
 }
 path:active {
   fill: #A75D5D;
+}
+
+.ver {
+  font-size: 35px;
+  color: #C08261;
+}
+
+#line {
+  grid-area: line;
+  border-left: 8px dashed #8D7B68;
+  height: 82vh;
+  margin: 30px 5px 30px 5px;
+}
+
+#ps {
+  font-size: 14px;
+  color: #A4907C;
+  margin-left: 170px;
 }
 
 /*# sourceMappingURL=style.css.map */
