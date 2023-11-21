@@ -2,13 +2,35 @@
   font-family: "Heebo";
 }
 
+body {
+  background-color: #FFF2D8;
+}
+
+#vs {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". ddmap app .";
+  column-gap: 20px;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 0.5fr;
+  grid-template-rows: 0.5fr 5fr;
+  grid-template-areas: ". place ." ". d3map .";
+  grid-area: app;
+  border: 1px solid;
+  height: 78vh;
+}
+
 .title_area {
   grid-area: place;
   color: #113946;
   text-align: center;
 }
 .title_area h1 {
-  font-size: 60px;
+  font-size: 55px;
   letter-spacing: 3px;
   border: 1px solid none;
   border-radius: 15px;
@@ -16,27 +38,24 @@
   color: #F1D3B3;
   margin: 10px;
   padding-top: 5px;
+  min-width: 41vw;
 }
-
 svg {
+  grid-area: d3map;
   height: 80vh;
-  grid-area: map;
-  display: flex;
-  position: absoluate;
-  left: 50%;
-  transform: translateX(48%);
+  margin-top: -10px;
+  border: 1px solid;
 }
 
-#app {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 0.5fr 5fr;
-  grid-template-areas: ". place ." ". map .";
+#ddmap {
+  grid-area: ddmap;
   position: relative;
 }
-
-body {
-  background-color: #FFF2D8;
+#ddmap img {
+  height: 80vh;
+  position: absoluate;
+  top: 50%;
+  transform: translateY(10%);
 }
 
 path {
