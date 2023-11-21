@@ -104,7 +104,7 @@ let place_data=[
     // Vue 要告訴它 執行的作用範圍
     // Vue3 這裡不受用 改用 Vue2
 var vm = new Vue({
-    el: "#app",   // element 元件
+    el: "#ver23",   // element 元件
     data: {   // 打算用該地區的英文名來抓那筆資料
     filter: "" ,
     place_data: place_data  
