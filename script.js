@@ -143,7 +143,7 @@ $("path").mouseenter(function(e){
     //  this 抓現在正在觸發的那個物件的本體
     //  用jQuery抓屬性
     //  attr 屬性
-    vm.filter=tagname
+    vm.filter=tagname;
     // 讓過濾資料=滑鼠滑到的那筆資料
     // let result = place_data.filter(function(objs){
     //   return obj.tag == tagname;
@@ -156,14 +156,10 @@ $("path").mouseenter(function(e){
 
 
 let chiayi_city_1 = document.getElementById("chiayi_city_1");
-
+chiayi_city_1.style.fill = "#FFF2D8";
 
 chiayi_city_1.addEventListener("mouseover", function(){
-    chiayi_city_1.style.fill = "#FFF2D8";
     chiayi_city_1.style.transform = "translateX(0px) translateY(0px)";
-});
-chiayi_city_1.addEventListener("mouseout", function(){
-    chiayi_city_1.style.fill = "#FFF2D8";
 });
 
 let keelung = document.getElementById("keelung");
